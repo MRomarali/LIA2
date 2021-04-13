@@ -1,0 +1,80 @@
+/*Logo*/
+.LogoNav {
+  width:200px;
+  height:100%;
+}
+
+
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+  /* display: flex; */
+  font: 12px 'opensans-bold', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+
+  z-index: 100;
+  position: fixed;
+  float:0;
+  top:0;
+  opacity: 0.8;
+  width: 100%;
+
+  background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.opaque { background-color: #333; }
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+  /* min-height: 48px; */
+  height:88px;
+
+  /* center align the menu */
+}
+ul#nav li {
+  /* left:200px; */
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+  margin:10px;
+}
+
+/* Links */
+ul#nav li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+  display: inline-block;
+  padding: 25px 51px;
+  line-height: 32px;
+  text-decoration: none;
+  color:white;
+   -webkit-transition: color .2s ease-in-out;
+   -moz-transition: color .2s ease-in-out;
+   -o-transition: color .2s ease-in-out;
+   -ms-transition: color .2s ease-in-out;
+   transition: color .2s ease-in-out;
+   
+}
+
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #fe6928; }
+
+ul#nav li a:hover {
+ text-decoration: underline;
+ text-decoration-color: white;
+ /* height:70px; */
+ opacity: 0.6;
+}

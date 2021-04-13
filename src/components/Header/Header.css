@@ -1,0 +1,102 @@
+.LogoImg img{
+   /* transform: translate(50,50%); */
+   width: 300px;
+    height: 300px;
+   margin:auto;
+   border-radius: 50%;
+   overflow: hidden;
+   border-top: 1px solid #111;
+   border-bottom: 1px solid #fff;
+   background: #fffefe;
+   opacity: .7;
+   -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+   box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+  
+}
+header {
+    background-image: url('../../img/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+ }
+ 
+ /* vertically center banner section */
+ header:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+ }
+ header .banner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+ }
+ 
+ header .banner-text { width: 100%; }
+ header .banner-text h1 {
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    color: #fff;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+ }
+ header .banner-text h3 {
+    font: 18px/1.9em 'librebaskerville-regular', serif;
+    color: #ddd;
+    margin: 0 auto;
+    width: 70%;
+ }
+ header .banner-text h3 span,
+ header .banner-text h3 a {
+    color: #fff;
+ }
+ header .banner-text hr {
+    width: 60%;
+    margin: 18px auto 24px auto;
+    border-color: #2F2D2E;
+    border-color: rgba(150, 150, 150, .1);
+ }
+ 
+ /* header social links */
+ header .social {
+    margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+ }
+ header .social li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+ }
+ header .social li a { color: #fff; }
+ header .social li a:hover { color: #0762f9; }
+ 
+ /* scrolldown link */
+ header .scrolldown a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 100%;
+ 
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+ }
+ header .scrolldown a:hover { color: #0762f9; }

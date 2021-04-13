@@ -1,0 +1,126 @@
+.footer-body {
+
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+dl {
+    margin: 0 0 2em 0;
+}
+
+    dl dt {
+        display: block;
+        font-weight: 400;
+        margin: 0 0 1em 0;
+    }
+
+    dl dd {
+        margin-left: 2em;
+    }
+
+    dl.alt dt {
+        display: block;
+        width: 3em;
+        margin: 0;
+        clear: left;
+        float: left;
+        color:black;
+    }
+    h2{
+        color:black;
+    }
+    dl.alt dd {
+        margin: 0 0 0.85em 5.5em;
+    }
+
+    dl.alt:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+ul.alt li {
+    border-top-color: rgba(255, 255, 255, 0.35);
+}
+
+dl dt {
+    color: #ffffff;
+}
+
+#footer {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 5em 5em 3em 5em ;
+    width: calc(100% + 2em);
+    margin: 0 0 3em -2em;
+    margin-bottom:0px;
+}
+
+    #footer > * {
+        width: calc(50% - 2em);
+        margin-left: 2em;
+    }
+
+    #footer .copyright {
+        width: 100%;
+        margin: 2.5em 0 2em 0;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        #footer {
+            padding: 4em 4em 2em 4em ;
+        }
+
+    }
+    @media screen and (max-width: 980px) {
+
+        #footer {
+            padding: 4em 3em 2em 3em ;
+            display: block;
+            margin: 0 0 3em 0;
+            width: 100%;
+        }
+
+            #footer > * {
+                width: 100%;
+                margin-left: 0;
+                margin-bottom: 3em;
+            }
+
+            #footer .copyright {
+                text-align: left;
+            }
+
+    }
+    @media screen and (max-width: 736px) {
+
+        #footer {
+            padding: 3em 2em 1em 2em ;
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+        #footer {
+            padding: 3em 1.5em 1em 1.5em ;
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+        #footer {
+            padding: 2.5em 1em 0.5em 1em ;
+        }
+
+    }

@@ -1,0 +1,35 @@
+.title{
+    color:black;
+    font-style:italic;
+}
+.move-top {
+    padding-top:90px;
+}
+.text h1, p{
+    color:black;
+    text-align: center;
+}
+.imgSlider img {
+    height: 700px;
+}
+
+.imgSlider {
+    height: 100%;
+}
+
+
+@media screen and (max-width: 766px) {
+    .gallerySlider{
+        display: none;
+    }
+    .cards-body{
+        /* margin:auto;
+        width:500px; */
+    }
+    .the-card {
+        /* background-color: red; */
+        /* margin-left:50px; */
+        /* margin:auto; */
+    }
+    
+  }
